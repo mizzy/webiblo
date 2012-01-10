@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>[% title %]</title>
+</head>
+<body>
+<h1>[% title %]</h1>
+
+<ul>
+  [% FOREACH chapter IN chapters -%]
+  <li><a href="[% chapter.href %]">[% chapter.title %]</a></li>
+  <ul>
+    [% FOREACH section IN chapter.sections -%]
+    <li><a href="[% section.href %]">[% section.title %]</li>
+      <ul>
+      [% FOREACH subsection IN section.subsections -%]
+        <li><a href="[% subsection.href %]">[% subsection.title %]</li>
+      [% END %]
+      </ul>
+    [% END -%]
+  </ul>
+  [% END -%]
+</ul>
+
+</body>
+</html>

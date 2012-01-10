@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid">
+  <metadata>
+    <dc-metadata xmlns:dc="http://purl.org/metadata/dublin_core"
+    xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+      <dc:Title>[% title %]</dc:Title>
+      <dc:Language>en-us</dc:Language>
+      [% FOREACH author IN authors -%]
+      <dc:Creator>[% author %]</dc:Creator>
+      [% END -%]
+      <dc:Description>[% description %]</dc:Description>
+      <dc:Date>[% date %]</dc:Date>
+    </dc-metadata>
+    <x-metadata>
+         <output encoding="utf-8" content-type="text/x-oeb1-document"></output>
+	  <EmbeddedCover>[% cover_file %]</EmbeddedCover>
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <item id="index" media-type="text/x-oeb1-document" href="index.html"></item>
+    <item id="toc" media-type="application/x-dtbncx+xml" href="toc.ncx"></item>
+[% num = 1 -%]
+[% FOREACH chapter IN chapters -%]
+  [% IF chapter.file -%]
+    <item id="item[% num %]" media-type="text/x-oeb1-document" href="[% chapter.file %]"></item>
+    [% num = num + 1 -%]
+  [% END -%]
+  [% FOREACH section IN chapter.sections -%]
+    <item id="item[% num %]" media-type="text/x-oeb1-document" href="[% section.file %]"></item>
+  [% num = num + 1 -%]
+  [% END -%]
+[% END -%]
+  </manifest>
+  <spine toc="toc">
+[% num = 1 -%]
+[% FOREACH chapter IN chapters -%]
+  [% FOREACH section IN chapter.sections -%]
+    <itemref idref="item[% num %]" />
+  [% num = num + 1 -%]
+  [% END -%]
+[% END -%]
+  </spine>
+  <tours></tours>
+  <guide>
+    <reference type="toc" title="Table of Contents" href="index.html"></reference>
+    <reference type="start" title="Startup Page" href="[% chapters.0.sections.0.href %]"></reference>
+  </guide>
+</package>
