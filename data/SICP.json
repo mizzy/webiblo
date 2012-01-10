@@ -1,0 +1,578 @@
+{
+   "authors":[
+      "Harold Abelson",
+      "Gerald Jay Sussman",
+      "Julie Sussman"
+   ],
+   "chapters":[
+      {
+         "title":"Foreword",
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-5.html#%_chap_Temp_2"
+      },
+      {
+         "title":"Preface to the Second Edition",
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-6.html#%_chap_Temp_3"
+      },
+      {
+         "title":"Preface to the First Edition",
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-7.html#%_chap_Temp_4"
+      },
+      {
+         "title":"Acknowledgments",
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-8.html#%_chap_Temp_5"
+      },
+      {
+         "title":"1  Building Abstractions with Procedures",
+         "sections":[
+            {
+               "subsections":[
+                  {
+                     "title":"1.1.1  Expressions",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.1"
+                  },
+                  {
+                     "title":"1.1.2  Naming and the Environment",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.2"
+                  },
+                  {
+                     "title":"1.1.3  Evaluating Combinations",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.3"
+                  },
+                  {
+                     "title":"1.1.4  Compound Procedures",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.4"
+                  },
+                  {
+                     "title":"1.1.5  The Substitution Model for Procedure Application",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.5"
+                  },
+                  {
+                     "title":"1.1.6  Conditional Expressions and Predicates",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.6"
+                  },
+                  {
+                     "title":"1.1.7  Example: Square Roots by Newton's Method",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7"
+                  },
+                  {
+                     "title":"1.1.8  Procedures as Black-Box Abstractions",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.8"
+                  }
+               ],
+               "title":"1.1  The Elements of Programming",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"1.2.1  Linear Recursion and Iteration",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.1"
+                  },
+                  {
+                     "title":"1.2.2  Tree Recursion",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.2"
+                  },
+                  {
+                     "title":"1.2.3  Orders of Growth",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.3"
+                  },
+                  {
+                     "title":"1.2.4  Exponentiation",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.4"
+                  },
+                  {
+                     "title":"1.2.5  Greatest Common Divisors",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.5"
+                  },
+                  {
+                     "title":"1.2.6  Example: Testing for Primality",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.6"
+                  }
+               ],
+               "title":"1.2  Procedures and the Processes They Generate",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"1.3.1  Procedures as Arguments",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-12.html#%_sec_1.3.1"
+                  },
+                  {
+                     "title":"1.3.2  Constructing Procedures Using Lambda",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-12.html#%_sec_1.3.2"
+                  },
+                  {
+                     "title":"1.3.3  Procedures as General Methods",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-12.html#%_sec_1.3.3"
+                  },
+                  {
+                     "title":"1.3.4  Procedures as Returned Values",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-12.html#%_sec_1.3.4"
+                  }
+               ],
+               "title":"1.3  Formulating Abstractions with Higher-Order Procedures",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-12.html#%_sec_1.3"
+            }
+         ],
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-9.html#%_chap_1"
+      },
+      {
+         "title":"2  Building Abstractions with Data",
+         "sections":[
+            {
+               "subsections":[
+                  {
+                     "title":"2.1.1  Example: Arithmetic Operations for Rational Numbers",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-14.html#%_sec_2.1.1"
+                  },
+                  {
+                     "title":"2.1.2  Abstraction Barriers",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-14.html#%_sec_2.1.2"
+                  },
+                  {
+                     "title":"2.1.3  What Is Meant by Data?",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-14.html#%_sec_2.1.3"
+                  },
+                  {
+                     "title":"2.1.4  Extended Exercise: Interval Arithmetic",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-14.html#%_sec_2.1.4"
+                  }
+               ],
+               "title":"2.1  Introduction to Data Abstraction",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-14.html#%_sec_2.1"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"2.2.1  Representing Sequences",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-15.html#%_sec_2.2.1"
+                  },
+                  {
+                     "title":"2.2.2  Hierarchical Structures",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-15.html#%_sec_2.2.2"
+                  },
+                  {
+                     "title":"2.2.3  Sequences as Conventional Interfaces",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-15.html#%_sec_2.2.3"
+                  },
+                  {
+                     "title":"2.2.4  Example: A Picture Language",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-15.html#%_sec_2.2.4"
+                  }
+               ],
+               "title":"2.2  Hierarchical Data and the Closure Property",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-15.html#%_sec_2.2"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"2.3.1  Quotation",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3.1"
+                  },
+                  {
+                     "title":"2.3.2  Example: Symbolic Differentiation",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3.2"
+                  },
+                  {
+                     "title":"2.3.3  Example: Representing Sets",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3.3"
+                  },
+                  {
+                     "title":"2.3.4  Example: Huffman Encoding Trees",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3.4"
+                  }
+               ],
+               "title":"2.3  Symbolic Data",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"2.4.1  Representations for Complex Numbers",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-17.html#%_sec_2.4.1"
+                  },
+                  {
+                     "title":"2.4.2  Tagged data",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-17.html#%_sec_2.4.2"
+                  },
+                  {
+                     "title":"2.4.3  Data-Directed Programming and Additivity",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-17.html#%_sec_2.4.3"
+                  }
+               ],
+               "title":"2.4  Multiple Representations for Abstract Data",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-17.html#%_sec_2.4"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"2.5.1  Generic Arithmetic Operations",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-18.html#%_sec_2.5.1"
+                  },
+                  {
+                     "title":"2.5.2  Combining Data of Different Types",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-18.html#%_sec_2.5.2"
+                  },
+                  {
+                     "title":"2.5.3  Example: Symbolic Algebra",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-18.html#%_sec_2.5.3"
+                  }
+               ],
+               "title":"2.5  Systems with Generic Operations",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-18.html#%_sec_2.5"
+            }
+         ],
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-13.html#%_chap_2"
+      },
+      {
+         "title":"3  Modularity, Objects, and State",
+         "sections":[
+            {
+               "subsections":[
+                  {
+                     "title":"3.1.1  Local State Variables",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-20.html#%_sec_3.1.1"
+                  },
+                  {
+                     "title":"3.1.2  The Benefits of Introducing Assignment",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-20.html#%_sec_3.1.2"
+                  },
+                  {
+                     "title":"3.1.3  The Costs of Introducing Assignment",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-20.html#%_sec_3.1.3"
+                  }
+               ],
+               "title":"3.1  Assignment and Local State",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-20.html#%_sec_3.1"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"3.2.1  The Rules for Evaluation",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2.1"
+                  },
+                  {
+                     "title":"3.2.2  Applying Simple Procedures",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2.2"
+                  },
+                  {
+                     "title":"3.2.3  Frames as the Repository of Local State",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2.3"
+                  },
+                  {
+                     "title":"3.2.4  Internal Definitions",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2.4"
+                  }
+               ],
+               "title":"3.2  The Environment Model of Evaluation",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"3.3.1  Mutable List Structure",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3.1"
+                  },
+                  {
+                     "title":"3.3.2  Representing Queues",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3.2"
+                  },
+                  {
+                     "title":"3.3.3  Representing Tables",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3.3"
+                  },
+                  {
+                     "title":"3.3.4  A Simulator for Digital Circuits",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3.4"
+                  },
+                  {
+                     "title":"3.3.5  Propagation of Constraints",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3.5"
+                  }
+               ],
+               "title":"3.3  Modeling with Mutable Data",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"3.4.1  The Nature of Time in Concurrent Systems",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-23.html#%_sec_3.4.1"
+                  },
+                  {
+                     "title":"3.4.2  Mechanisms for Controlling Concurrency",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-23.html#%_sec_3.4.2"
+                  }
+               ],
+               "title":"3.4  Concurrency: Time Is of the Essence",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-23.html#%_sec_3.4"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"3.5.1  Streams Are Delayed Lists",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5.1"
+                  },
+                  {
+                     "title":"3.5.2  Infinite Streams",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5.2"
+                  },
+                  {
+                     "title":"3.5.3  Exploiting the Stream Paradigm",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5.3"
+                  },
+                  {
+                     "title":"3.5.4  Streams and Delayed Evaluation",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5.4"
+                  },
+                  {
+                     "title":"3.5.5  Modularity of Functional Programs and Modularity of Objects",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5.5"
+                  }
+               ],
+               "title":"3.5  Streams",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5"
+            }
+         ],
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-19.html#%_chap_3"
+      },
+      {
+         "title":"4  Metalinguistic Abstraction",
+         "sections":[
+            {
+               "subsections":[
+                  {
+                     "title":"4.1.1  The Core of the Evaluator",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-26.html#%_sec_4.1.1"
+                  },
+                  {
+                     "title":"4.1.2  Representing Expressions",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-26.html#%_sec_4.1.2"
+                  },
+                  {
+                     "title":"4.1.3  Evaluator Data Structures",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-26.html#%_sec_4.1.3"
+                  },
+                  {
+                     "title":"4.1.4  Running the Evaluator as a Program",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-26.html#%_sec_4.1.4"
+                  },
+                  {
+                     "title":"4.1.5  Data as Programs",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-26.html#%_sec_4.1.5"
+                  },
+                  {
+                     "title":"4.1.6  Internal Definitions",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-26.html#%_sec_4.1.6"
+                  },
+                  {
+                     "title":"4.1.7  Separating Syntactic Analysis from Execution",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-26.html#%_sec_4.1.7"
+                  }
+               ],
+               "title":"4.1  The Metacircular Evaluator",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-26.html#%_sec_4.1"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"4.2.1  Normal Order and Applicative Order",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-27.html#%_sec_4.2.1"
+                  },
+                  {
+                     "title":"4.2.2  An Interpreter with Lazy Evaluation",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-27.html#%_sec_4.2.2"
+                  },
+                  {
+                     "title":"4.2.3  Streams as Lazy Lists",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-27.html#%_sec_4.2.3"
+                  }
+               ],
+               "title":"4.2  Variations on a Scheme -- Lazy Evaluation",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-27.html#%_sec_4.2"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"4.3.1  Amb and Search",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-28.html#%_sec_4.3.1"
+                  },
+                  {
+                     "title":"4.3.2  Examples of Nondeterministic Programs",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-28.html#%_sec_4.3.2"
+                  },
+                  {
+                     "title":"4.3.3  Implementing the Amb Evaluator",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-28.html#%_sec_4.3.3"
+                  }
+               ],
+               "title":"4.3  Variations on a Scheme -- Nondeterministic Computing",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-28.html#%_sec_4.3"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"4.4.1  Deductive Information Retrieval",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-29.html#%_sec_4.4.1"
+                  },
+                  {
+                     "title":"4.4.2  How the Query System Works",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-29.html#%_sec_4.4.2"
+                  },
+                  {
+                     "title":"4.4.3  Is Logic Programming Mathematical Logic?",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-29.html#%_sec_4.4.3"
+                  },
+                  {
+                     "title":"4.4.4  Implementing the Query System",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-29.html#%_sec_4.4.4"
+                  }
+               ],
+               "title":"4.4  Logic Programming",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-29.html#%_sec_4.4"
+            }
+         ],
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-25.html#%_chap_4"
+      },
+      {
+         "title":"5  Computing with Register Machines",
+         "sections":[
+            {
+               "subsections":[
+                  {
+                     "title":"5.1.1  A Language for Describing Register Machines",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-31.html#%_sec_5.1.1"
+                  },
+                  {
+                     "title":"5.1.2  Abstraction in Machine Design",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-31.html#%_sec_5.1.2"
+                  },
+                  {
+                     "title":"5.1.3  Subroutines",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-31.html#%_sec_5.1.3"
+                  },
+                  {
+                     "title":"5.1.4  Using a Stack to Implement Recursion",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-31.html#%_sec_5.1.4"
+                  },
+                  {
+                     "title":"5.1.5  Instruction Summary",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-31.html#%_sec_5.1.5"
+                  }
+               ],
+               "title":"5.1  Designing Register Machines",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-31.html#%_sec_5.1"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"5.2.1  The Machine Model",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-32.html#%_sec_5.2.1"
+                  },
+                  {
+                     "title":"5.2.2  The Assembler",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-32.html#%_sec_5.2.2"
+                  },
+                  {
+                     "title":"5.2.3  Generating Execution Procedures for Instructions",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-32.html#%_sec_5.2.3"
+                  },
+                  {
+                     "title":"5.2.4  Monitoring Machine Performance",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-32.html#%_sec_5.2.4"
+                  }
+               ],
+               "title":"5.2  A Register-Machine Simulator",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-32.html#%_sec_5.2"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"5.3.1  Memory as Vectors",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-33.html#%_sec_5.3.1"
+                  },
+                  {
+                     "title":"5.3.2  Maintaining the Illusion of Infinite Memory",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-33.html#%_sec_5.3.2"
+                  }
+               ],
+               "title":"5.3  Storage Allocation and Garbage Collection",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-33.html#%_sec_5.3"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"5.4.1  The Core of the Explicit-Control Evaluator",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-34.html#%_sec_5.4.1"
+                  },
+                  {
+                     "title":"5.4.2  Sequence Evaluation and Tail Recursion",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-34.html#%_sec_5.4.2"
+                  },
+                  {
+                     "title":"5.4.3  Conditionals, Assignments, and Definitions",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-34.html#%_sec_5.4.3"
+                  },
+                  {
+                     "title":"5.4.4  Running the Evaluator",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-34.html#%_sec_5.4.4"
+                  }
+               ],
+               "title":"5.4  The Explicit-Control Evaluator",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-34.html#%_sec_5.4"
+            },
+            {
+               "subsections":[
+                  {
+                     "title":"5.5.1  Structure of the Compiler",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-35.html#%_sec_5.5.1"
+                  },
+                  {
+                     "title":"5.5.2  Compiling Expressions",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-35.html#%_sec_5.5.2"
+                  },
+                  {
+                     "title":"5.5.3  Compiling Combinations",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-35.html#%_sec_5.5.3"
+                  },
+                  {
+                     "title":"5.5.4  Combining Instruction Sequences",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-35.html#%_sec_5.5.4"
+                  },
+                  {
+                     "title":"5.5.5  An Example of Compiled Code",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-35.html#%_sec_5.5.5"
+                  },
+                  {
+                     "title":"5.5.6  Lexical Addressing",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-35.html#%_sec_5.5.6"
+                  },
+                  {
+                     "title":"5.5.7  Interfacing Compiled Code to the Evaluator",
+                     "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-35.html#%_sec_5.5.7"
+                  }
+               ],
+               "title":"5.5  Compilation",
+               "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-35.html#%_sec_5.5"
+            }
+         ],
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-30.html#%_chap_5"
+      },
+      {
+         "title":"References",
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-36.html#%_chap_Temp_849"
+      },
+      {
+         "title":"List of Exercises",
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html#%_chap_Temp_850"
+      },
+      {
+         "title":"Index",
+         "uri":"http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-38.html#%_chap_Temp_851"
+      }
+   ],
+   "cover_image":"http://mitpress.mit.edu/sicp/full-text/book/cover.jpg",
+   "title":"Structure and Interpretation of Computer Programs",
+   "exclude_xpath":"//div[@class=\"navigation\"]"
+}

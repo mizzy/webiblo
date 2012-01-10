@@ -1,0 +1,460 @@
+{
+   "content_xpath":"//div[@class=\"content\"]",
+   "authors":[
+      "37signals"
+   ],
+   "date":"2012/1/9",
+   "chapters":[
+      {
+         "title":"Introduction",
+         "sections":[
+            {
+               "title":"What is Getting Real?",
+               "uri":"http://gettingreal.37signals.com/ch01_What_is_Getting_Real.php"
+            },
+            {
+               "title":"About 37signals",
+               "uri":"http://gettingreal.37signals.com/ch01_About_37signals.php"
+            },
+            {
+               "title":"Caveats, disclaimers, and other preemptive strikes",
+               "uri":"http://gettingreal.37signals.com/ch01_Caveats_disclaimers_and_other_preemptive_strikes.php"
+            }
+         ]
+      },
+      {
+         "title":"The Starting Line",
+         "sections":[
+            {
+               "title":"Build Less",
+               "uri":"http://gettingreal.37signals.com/ch02_Build_Less.php"
+            },
+            {
+               "title":"What's Your Problem? ",
+               "uri":"http://gettingreal.37signals.com/ch02_Whats_Your_Problem.php"
+            },
+            {
+               "title":"Fund Yourself",
+               "uri":"http://gettingreal.37signals.com/ch02_Fund_Yourself.php"
+            },
+            {
+               "title":"Fix Time and Budget, Flex Scope",
+               "uri":"http://gettingreal.37signals.com/ch02_Fix_Time_and_Budget_Flex_Scope.php"
+            },
+            {
+               "title":"Have an Enemy",
+               "uri":"http://gettingreal.37signals.com/ch02_Have_an_Enemy.php"
+            },
+            {
+               "title":"It Shouldn't be a Chore",
+               "uri":"http://gettingreal.37signals.com/ch02_It_Shouldnt_be_a_Chore.php"
+            }
+         ]
+      },
+      {
+         "title":"Stay Lean",
+         "sections":[
+            {
+               "title":"Less Mass",
+               "uri":"http://gettingreal.37signals.com/ch03_Less_Mass.php"
+            },
+            {
+               "title":"Lower Your Cost of Change",
+               "uri":"http://gettingreal.37signals.com/ch03_Lower_Your_Cost_of_Change.php"
+            },
+            {
+               "title":"The Three Musketeers",
+               "uri":"http://gettingreal.37signals.com/ch03_The_Three_Musketeers.php"
+            },
+            {
+               "title":"Embrace Constraints",
+               "uri":"http://gettingreal.37signals.com/ch03_Embrace_Constraints.php"
+            },
+            {
+               "title":"Be Yourself",
+               "uri":"http://gettingreal.37signals.com/ch03_Be_Yourself.php"
+            }
+         ]
+      },
+      {
+         "title":"Priorities",
+         "sections":[
+            {
+               "title":"What's the big idea?",
+               "uri":"http://gettingreal.37signals.com/ch04_Whats_the_Big_Idea.php"
+            },
+            {
+               "title":"Ignore Details Early On",
+               "uri":"http://gettingreal.37signals.com/ch04_Ignore_Details_Early_On.php"
+            },
+            {
+               "title":"It's a Problem When It's a Problem",
+               "uri":"http://gettingreal.37signals.com/ch04_Its_a_Problem_When_Its_a_Problem.php"
+            },
+            {
+               "title":"Hire the Right Customers",
+               "uri":"http://gettingreal.37signals.com/ch04_Hire_the_Right_Customers.php"
+            },
+            {
+               "title":"Scale Later",
+               "uri":"http://gettingreal.37signals.com/ch04_Scale_Later.php"
+            },
+            {
+               "title":"Make Opinionated Software",
+               "uri":"http://gettingreal.37signals.com/ch04_Make_Opinionated_Software.php"
+            }
+         ]
+      },
+      {
+         "title":"Feature Selection",
+         "sections":[
+            {
+               "title":"Half, Not Half-Assed",
+               "uri":"http://gettingreal.37signals.com/ch05_Half_Not_Half_Assed.php"
+            },
+            {
+               "title":"It Just Doesn't Matter",
+               "uri":"http://gettingreal.37signals.com/ch05_It_Just_Doesnt_Matter.php"
+            },
+            {
+               "title":"Start With No",
+               "uri":"http://gettingreal.37signals.com/ch05_Start_With_No.php"
+            },
+            {
+               "title":"Hidden Costs",
+               "uri":"http://gettingreal.37signals.com/ch05_Hidden_Costs.php"
+            },
+            {
+               "title":"Can You Handle It?",
+               "uri":"http://gettingreal.37signals.com/ch05_Can_You_Handle_It.php"
+            },
+            {
+               "title":"Human Solutions",
+               "uri":"http://gettingreal.37signals.com/ch05_Human_Solutions.php"
+            },
+            {
+               "title":"Forget Feature Requests",
+               "uri":"http://gettingreal.37signals.com/ch05_Forget_Feature_Requests.php"
+            },
+            {
+               "title":"Hold the Mayo",
+               "uri":"http://gettingreal.37signals.com/ch05_Hold_the_Mayo.php"
+            }
+         ]
+      },
+      {
+         "title":"Process",
+         "sections":[
+            {
+               "title":"Race to Running Software",
+               "uri":"http://gettingreal.37signals.com/ch06_Race_to_Running_Software.php"
+            },
+            {
+               "title":"Rinse and Repeat",
+               "uri":"http://gettingreal.37signals.com/ch06_Rinse_and_Repeat.php"
+            },
+            {
+               "title":"From Idea to Implementation",
+               "uri":"http://gettingreal.37signals.com/ch06_From_Idea_to_Implementation.php"
+            },
+            {
+               "title":"Avoid Preferences",
+               "uri":"http://gettingreal.37signals.com/ch06_Avoid_Preferences.php"
+            },
+            {
+               "title":"\"Done!\"",
+               "uri":"http://gettingreal.37signals.com/ch06_Done.php"
+            },
+            {
+               "title":"Test in the Wild",
+               "uri":"http://gettingreal.37signals.com/ch06_Test_in_the_Wild.php"
+            },
+            {
+               "title":"Shrink Your Time",
+               "uri":"http://gettingreal.37signals.com/ch06_Shrink_Your_Time.php"
+            }
+         ]
+      },
+      {
+         "title":"The Organization",
+         "sections":[
+            {
+               "title":"Unity",
+               "uri":"http://gettingreal.37signals.com/ch07_Unity.php"
+            },
+            {
+               "title":"Alone Time",
+               "uri":"http://gettingreal.37signals.com/ch07_Alone_Time.php"
+            },
+            {
+               "title":"Meetings Are Toxic",
+               "uri":"http://gettingreal.37signals.com/ch07_Meetings_Are_Toxic.php"
+            },
+            {
+               "title":"Seek and Celebrate Small Victories",
+               "uri":"http://gettingreal.37signals.com/ch07_Seek_and_Celebrate_Small_Victories.php"
+            }
+         ]
+      },
+      {
+         "title":"Staffing",
+         "sections":[
+            {
+               "title":"Hire Less and Hire Later",
+               "uri":"http://gettingreal.37signals.com/ch08_Hire_Less_and_Hire_Later.php"
+            },
+            {
+               "title":"Kick the Tires",
+               "uri":"http://gettingreal.37signals.com/ch08_Kick_the_Tires.php"
+            },
+            {
+               "title":"Actions, Not Words",
+               "uri":"http://gettingreal.37signals.com/ch08_Actions_Not_Words.php"
+            },
+            {
+               "title":"Get Well Rounded Individuals",
+               "uri":"http://gettingreal.37signals.com/ch08_Get_Well_Rounded_Individuals.php"
+            },
+            {
+               "title":"You Can't Fake Enthusiasm",
+               "uri":"http://gettingreal.37signals.com/ch08_You_Cant_Fake_Enthusiasm.php"
+            },
+            {
+               "title":"Wordsmiths",
+               "uri":"http://gettingreal.37signals.com/ch08_Wordsmiths.php"
+            }
+         ]
+      },
+      {
+         "title":"Interface Design",
+         "sections":[
+            {
+               "title":"Interface First",
+               "uri":"http://gettingreal.37signals.com/ch09_Interface_First.php"
+            },
+            {
+               "title":"Epicenter Design",
+               "uri":"http://gettingreal.37signals.com/ch09_Epicenter_Design.php"
+            },
+            {
+               "title":"Three State Solution",
+               "uri":"http://gettingreal.37signals.com/ch09_Three_State_Solution.php"
+            },
+            {
+               "title":"The Blank Slate",
+               "uri":"http://gettingreal.37signals.com/ch09_The_Blank_Slate.php"
+            },
+            {
+               "title":"Get Defensive",
+               "uri":"http://gettingreal.37signals.com/ch09_Get_Defensive.php"
+            },
+            {
+               "title":"Context Over Consistency",
+               "uri":"http://gettingreal.37signals.com/ch09_Context_Over_Consistency.php"
+            },
+            {
+               "title":"Copywriting is Interface Design",
+               "uri":"http://gettingreal.37signals.com/ch09_Copywriting_is_Interface_Design.php"
+            },
+            {
+               "title":"One Interface",
+               "uri":"http://gettingreal.37signals.com/ch09_One_Interface.php"
+            }
+         ]
+      },
+      {
+         "title":"Code",
+         "sections":[
+            {
+               "title":"Less Software",
+               "uri":"http://gettingreal.37signals.com/ch10_Less_Software.php"
+            },
+            {
+               "title":"Optimize for Happiness",
+               "uri":"http://gettingreal.37signals.com/ch10_Optimize_for_Happiness.php"
+            },
+            {
+               "title":"Code Speaks",
+               "uri":"http://gettingreal.37signals.com/ch10_Code_Speaks.php"
+            },
+            {
+               "title":"Manage Debt",
+               "uri":"http://gettingreal.37signals.com/ch10_Manage_Debt.php"
+            },
+            {
+               "title":"Open Doors",
+               "uri":"http://gettingreal.37signals.com/ch10_Open_Doors.php"
+            }
+         ]
+      },
+      {
+         "title":"Words",
+         "sections":[
+            {
+               "title":"There's Nothing Functional about a Functional Spec",
+               "uri":"http://gettingreal.37signals.com/ch11_Theres_Nothing_Functional_about_a_Functional_Spec.php"
+            },
+            {
+               "title":"Don't Do Dead Documents",
+               "uri":"http://gettingreal.37signals.com/ch11_Dont_Do_Dead_Documents.php"
+            },
+            {
+               "title":"Tell Me a Quick Story",
+               "uri":"http://gettingreal.37signals.com/ch11_Tell_Me_a_Quick_Story.php"
+            },
+            {
+               "title":"Use Real Words",
+               "uri":"http://gettingreal.37signals.com/ch11_Use_Real_Words.php"
+            },
+            {
+               "title":"Personify Your Product",
+               "uri":"http://gettingreal.37signals.com/ch11_Personify_Your_Product.php"
+            }
+         ]
+      },
+      {
+         "title":"Pricing and Signup",
+         "sections":[
+            {
+               "title":"Free Samples",
+               "uri":"http://gettingreal.37signals.com/ch12_Free_Samples.php"
+            },
+            {
+               "title":"Easy On, Easy Off",
+               "uri":"http://gettingreal.37signals.com/ch12_Easy_On_Easy_Off.php"
+            },
+            {
+               "title":"Silly Rabbit, Tricks are for Kids",
+               "uri":"http://gettingreal.37signals.com/ch12_Silly_Rabbit_Tricks_are_for_Kids.php"
+            },
+            {
+               "title":"A Softer Bullet",
+               "uri":"http://gettingreal.37signals.com/ch12_A_Softer_Bullet.php"
+            }
+         ]
+      },
+      {
+         "title":"Promotion",
+         "sections":[
+            {
+               "title":"Hollywood Launch",
+               "uri":"http://gettingreal.37signals.com/ch13_Hollywood_Launch.php"
+            },
+            {
+               "title":"A Powerful Promo Site",
+               "uri":"http://gettingreal.37signals.com/ch13_A_Powerful_Promo_Site.php"
+            },
+            {
+               "title":"Ride the Blog Wave",
+               "uri":"http://gettingreal.37signals.com/ch13_Ride_the_Blog_Wave.php"
+            },
+            {
+               "title":"Solicit Early",
+               "uri":"http://gettingreal.37signals.com/ch13_Solicit_Early.php"
+            },
+            {
+               "title":"Promote Through Education",
+               "uri":"http://gettingreal.37signals.com/ch13_Promote_Through_Education.php"
+            },
+            {
+               "title":"Feature Food",
+               "uri":"http://gettingreal.37signals.com/ch13_Feature_Food.php"
+            },
+            {
+               "title":"Track Your Logs",
+               "uri":"http://gettingreal.37signals.com/ch13_Track_Your_Logs.php"
+            },
+            {
+               "title":"Inline Upsell",
+               "uri":"http://gettingreal.37signals.com/ch13_Inline_Upsell.php"
+            },
+            {
+               "title":"Name Hook",
+               "uri":"http://gettingreal.37signals.com/ch13_Name_Hook.php"
+            }
+         ]
+      },
+      {
+         "title":"Support",
+         "sections":[
+            {
+               "title":"Feel The Pain",
+               "uri":"http://gettingreal.37signals.com/ch14_Feel_The_Pain.php"
+            },
+            {
+               "title":"Zero Training",
+               "uri":"http://gettingreal.37signals.com/ch14_Zero_Training.php"
+            },
+            {
+               "title":"Answer Quick",
+               "uri":"http://gettingreal.37signals.com/ch14_Answer_Quick.php"
+            },
+            {
+               "title":"Tough Love",
+               "uri":"http://gettingreal.37signals.com/ch14_Tough_Love.php"
+            },
+            {
+               "title":"In Fine Forum",
+               "uri":"http://gettingreal.37signals.com/ch14_In_Fine_Forum.php"
+            },
+            {
+               "title":"Publicize Your Screwups",
+               "uri":"http://gettingreal.37signals.com/ch14_Publicize_Your_Screwups.php"
+            }
+         ]
+      },
+      {
+         "title":"Post-Launch",
+         "sections":[
+            {
+               "title":"One Month Tuneup",
+               "uri":"http://gettingreal.37signals.com/ch15_One_Month_Tuneup.php"
+            },
+            {
+               "title":"Keep the Posts Coming",
+               "uri":"http://gettingreal.37signals.com/ch15_Keep_the_Posts_Coming.php"
+            },
+            {
+               "title":"Better, Not Beta",
+               "uri":"http://gettingreal.37signals.com/ch15_Better_Not_Beta.php"
+            },
+            {
+               "title":"All Bugs Are Not Created Equal",
+               "uri":"http://gettingreal.37signals.com/ch15_All_Bugs_Are_Not_Created_Equal.php"
+            },
+            {
+               "title":"Ride Out the Storm",
+               "uri":"http://gettingreal.37signals.com/ch15_Ride_Out_the_Storm.php"
+            },
+            {
+               "title":"Keep Up With the Joneses",
+               "uri":"http://gettingreal.37signals.com/ch15_Keep_Up_With_the_Joneses.php"
+            },
+            {
+               "title":"Beware the Bloat Monster",
+               "uri":"http://gettingreal.37signals.com/ch15_Beware_the_Bloat_Monster.php"
+            },
+            {
+               "title":"Go With the Flow",
+               "uri":"http://gettingreal.37signals.com/ch15_Go_With_the_Flow.php"
+            }
+         ]
+      },
+      {
+         "title":"Conclusion",
+         "sections":[
+            {
+               "title":"Start Your Engines",
+               "uri":"http://gettingreal.37signals.com/ch16_Start_Your_Engines.php"
+            },
+            {
+               "title":"37signals Resources",
+               "uri":"http://gettingreal.37signals.com/ch16_37signals_Resources.php"
+            }
+         ]
+      }
+   ],
+   "cover_image":"http://ec2.images-amazon.com/images/I/31jvYr2h6GL._SS500_.jpg",
+   "title":"Getting Real",
+   "exclude_xpath":"//div[@class=\"next\"]"
+}
