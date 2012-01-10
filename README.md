@@ -9,6 +9,8 @@ You can convert Getting Real web data to mobipcoket format like this.
     $ webiblo.pl http://mizzy.org/webiblo/data/Getting_Real.json
 
 
+---------------------------------------
+
 ## JSON data format
 
 JSON data format to convert web data to ebook is like this:
@@ -50,6 +52,8 @@ These are the examples.
  * http://mizzy.org/webiblo/data/Getting_Real.json
  * http://mizzy.org/webiblo/data/SICP.json
 
+---------------------------------------
+
 ## Try your own JSON data
 
 webiblo.pl takes JSON data from STDIN, so you can run webiblo.pl like this:
@@ -59,10 +63,11 @@ webiblo.pl takes JSON data from STDIN, so you can run webiblo.pl like this:
 
 ## Share your JSON data
 
-JSON data are put on [gh-pages bransh](https://github.com/mizzy/webiblo/tree/gh-pages) and  shared on [GitHub Pages](http://mizzy.org/webiblo/).
+JSON data are put on [gh-pages branch](https://github.com/mizzy/webiblo/tree/gh-pages) and  shared on [GitHub Pages](http://mizzy.org/webiblo/).
 
 If you create a JSON data for webiblo, please send me pull requests.
 
+---------------------------------------
 
 ## TODO
 
