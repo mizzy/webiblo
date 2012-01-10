@@ -10,9 +10,8 @@ use YAML;
 
 
 my $base = 'http://gettingreal.37signals.com';
-mirror("$base/toc.php", 'toc.php') unless -f 'toc.php';
 my $tree = HTML::TreeBuilder::XPath->new;
-$tree->parse_file('toc.php');
+$tree->parse(get("$base/toc.php"));
 
 my $chapters = [];
 for my $chapter ( $tree->findnodes('//h2') ) {

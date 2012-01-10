@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use LWP::Simple;
 use HTML::TreeBuilder::XPath;
-use JSON;
+use JSON::XS;
 
 my $base = 'http://mitpress.mit.edu/sicp/full-text/book';
 
@@ -65,5 +65,8 @@ for my $a ( $tree->findnodes('//a') ) {
 
 $book->{chapters} = $chapters;
 
-print to_json($book);
+my $json = JSON::XS->new;
+$json->indent(1);
+
+print $json->encode($book);
 
