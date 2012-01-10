@@ -74,3 +74,4 @@ If you create a JSON data for webiblo, please send me pull requests.
 ## TODO
 
  * Support formats other than mobipocket. (eg. EPUB3)
+ * Search JSON catalog from CLI.
