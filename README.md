@@ -1,5 +1,7 @@
 # Webiblo - web to ebook project
 
+---------------------------------------
+
 ## Overview
 
 Webiblo is a project to convert web sites to ebooks.
