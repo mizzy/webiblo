@@ -85,11 +85,14 @@ sub get_content {
     mirror($uri, "tmp/$file") unless -f "tmp/$file";
 
     my $tree = HTML::TreeBuilder::XPath->new;
+    $tree->no_expand_entities(1);
     $tree->parse_file("tmp/$file");
+    $tree->eof;
 
     if ( $book->{content_xpath} ) {
         my $content = ($tree->findnodes($book->{content_xpath}))[0];
         $tree = HTML::TreeBuilder::XPath->new;
+        $tree->no_expand_entities(1);
         $tree->parse($content->as_XML);
         $tree->eof;
     }
