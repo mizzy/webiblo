@@ -8,19 +8,26 @@
 <h1>[% title %]</h1>
 
 <ul>
-  [% FOREACH chapter IN chapters -%]
-  <li><a href="[% chapter.href %]">[% chapter.title %]</a></li>
-  <ul>
-    [% FOREACH section IN chapter.sections -%]
-    <li><a href="[% section.href %]">[% section.title %]</li>
+  [% FOREACH part IN parts -%]
+    [% IF part.title -%]
+    <li><a href="[% part.href %]">[% part.title %]</a></li>
+    [% END -%]
+    <ul>
+    [% FOREACH chapter IN part.chapters -%]
+      <li><a href="[% chapter.href %]">[% chapter.title %]</a></li>
       <ul>
-      [% FOREACH subsection IN section.subsections -%]
-        <li><a href="[% subsection.href %]">[% subsection.title %]</li>
-      [% END %]
-      </ul>
+      [% FOREACH section IN chapter.sections -%]
+        <li><a href="[% section.href %]">[% section.title %]</li>
+        <ul>
+        [% FOREACH subsection IN section.subsections -%]
+          <li><a href="[% subsection.href %]">[% subsection.title %]</li>
+        [% END %]
+        </ul>
+      [% END -%]
+    </ul>
     [% END -%]
   </ul>
-  [% END -%]
+[% END -%]
 </ul>
 
 </body>

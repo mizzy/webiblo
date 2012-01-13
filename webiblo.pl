@@ -37,12 +37,16 @@ if ( $book->{cover_image} ) {
     close $out;
 }
 
-for my $chapter ( @{ $book->{chapters} } ) {
-    get_content($chapter);
-    for my $section ( @{ $chapter->{sections} } ) {
-        get_content($section);
-        for my $subsection ( @{ $section->{subsections} } ) {
-            get_content($subsection);
+$book->{parts}->[0]->{chapters} = $book->{chapters} unless $book->{parts};
+
+for my $part ( @{ $book->{parts} } ) {
+    for my $chapter ( @{ $part->{chapters} } ) {
+        get_content($chapter);
+        for my $section ( @{ $chapter->{sections} } ) {
+            get_content($section);
+            for my $subsection ( @{ $section->{subsections} } ) {
+                get_content($subsection);
+            }
         }
     }
 }

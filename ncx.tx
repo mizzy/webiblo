@@ -7,18 +7,27 @@
          <navLabel><text>[% title %] - Table of Contents</text></navLabel><content src="index.html"/>
       </navPoint>
 [% num = 1 -%]
-[% FOREACH chapter IN chapters -%]
-   [% IF chapter.href -%]
-      <navPoint id="item[% num %]" playOrder="[% num %]">
-         <navLabel><text>[% chapter.title %]</text></navLabel><content src="[% chapter.href %]"/>
-      </navPoint>
+
+[% FOREACH part IN parts -%]
+  [% IF part.href -%]
+    <navPoint id="item[% num %]" playOrder="[% num %]">
+      <navLabel><text>[% part.title %]</text></navLabel><content src="[% part.href %]"/>
+    </navPoint>
     [% num = num + 1 -%]
   [% END -%]
-  [% FOREACH section IN chapter.sections -%]
+  [% FOREACH chapter IN part.chapters -%]
+    [% IF chapter.href -%]
+       <navPoint id="item[% num %]" playOrder="[% num %]">
+         <navLabel><text>[% chapter.title %]</text></navLabel><content src="[% chapter.href %]"/>
+       </navPoint>
+       [% num = num + 1 -%]
+    [% END -%]
+    [% FOREACH section IN chapter.sections -%]
       <navPoint id="item[% num %]" playOrder="[% num %]">
-         <navLabel><text>[% section.title %]</text></navLabel><content src="[% section.href %]"/>
+        <navLabel><text>[% section.title %]</text></navLabel><content src="[% section.href %]"/>
       </navPoint>
-    [% num = num + 1 -%]
+      [% num = num + 1 -%]
+    [% END -%]
   [% END -%]
 [% END -%]
    </navMap>

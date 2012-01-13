@@ -20,23 +20,31 @@
     <item id="index" media-type="text/x-oeb1-document" href="index.html"></item>
     <item id="toc" media-type="application/x-dtbncx+xml" href="toc.ncx"></item>
 [% num = 1 -%]
-[% FOREACH chapter IN chapters -%]
-  [% IF chapter.file -%]
-    <item id="item[% num %]" media-type="text/x-oeb1-document" href="[% chapter.file %]"></item>
+[% FOREACH part IN parts -%]
+  [% IF part.file -%]
+    <item id="item[% num %]" media-type="text/x-oeb1-document" href="[% part.file %]"></item>
     [% num = num + 1 -%]
   [% END -%]
-  [% FOREACH section IN chapter.sections -%]
-    <item id="item[% num %]" media-type="text/x-oeb1-document" href="[% section.file %]"></item>
-  [% num = num + 1 -%]
+  [% FOREACH chapter IN part.chapters -%]
+    [% IF chapter.file -%]
+      <item id="item[% num %]" media-type="text/x-oeb1-document" href="[% chapter.file %]"></item>
+      [% num = num + 1 -%]
+    [% END -%]
+    [% FOREACH section IN chapter.sections -%]
+      <item id="item[% num %]" media-type="text/x-oeb1-document" href="[% section.file %]"></item>
+      [% num = num + 1 -%]
+    [% END -%]
   [% END -%]
 [% END -%]
   </manifest>
   <spine toc="toc">
 [% num = 1 -%]
-[% FOREACH chapter IN chapters -%]
-  [% FOREACH section IN chapter.sections -%]
-    <itemref idref="item[% num %]" />
-  [% num = num + 1 -%]
+[% FOREACH part IN parts -%]
+    [% FOREACH chapter IN part.chapters -%]
+      [% FOREACH section IN chapter.sections -%]
+        <itemref idref="item[% num %]" />
+        [% num = num + 1 -%]
+    [% END -%]
   [% END -%]
 [% END -%]
   </spine>
