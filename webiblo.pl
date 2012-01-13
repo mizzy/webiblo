@@ -40,6 +40,7 @@ if ( $book->{cover_image} ) {
 $book->{parts}->[0]->{chapters} = $book->{chapters} unless $book->{parts};
 
 for my $part ( @{ $book->{parts} } ) {
+    get_content($part);
     for my $chapter ( @{ $part->{chapters} } ) {
         get_content($chapter);
         for my $section ( @{ $chapter->{sections} } ) {
