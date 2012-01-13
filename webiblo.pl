@@ -116,7 +116,12 @@ sub get_content {
     for my $image ( @images ) {
         my $base = $uri->as_string;
         $base =~ s{/[^/]+$}{};
-        get_image(URI->new("$base/" . $image->attr('src')));
+
+        warn "Getting $uri ...\n";
+        my $uri  = URI->new("$base/" . $image->attr('src'));
+        my $file = ($uri->path_segments)[-1];
+        mirror($uri, "out/$file") unless -f "out/$file";
+        $image->attr('src', $file);
     }
 
     $file =~ s/\..+/.html/ unless $file =~ /\.html$/;
@@ -128,11 +133,4 @@ sub get_content {
     $object->{file} = $file;
     $file .= "#$fragment" if $fragment;
     $object->{href} = $file;
-}
-
-sub get_image {
-    my $uri = shift;
-    warn "Getting $uri ...\n";
-    my $file = ($uri->path_segments)[-1];
-    mirror($uri, "out/$file") unless -f "out/$file";
 }
