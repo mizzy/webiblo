@@ -83,8 +83,6 @@ sub get_content {
     my $object = shift;
     return if !$object->{uri};
 
-    warn "Getting $object->{title} ...\n";
-
     my $uri      = URI->new($object->{uri});
     my $file     = ($uri->path_segments)[-1];
     my $fragment = $uri->fragment;
@@ -95,6 +93,7 @@ sub get_content {
 
     return if -f "tmp/$file";
 
+    warn "Getting $object->{title} ...\n";
     mirror($uri, "tmp/$file");
 
     my $tree = HTML::TreeBuilder::XPath->new;
