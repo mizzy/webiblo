@@ -1,0 +1,225 @@
+{
+   "parts":[
+      {
+         "chapters":[
+            {
+               "title":"Chapter: Software",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-1"
+            }
+         ],
+         "title":"Part I: Preface",
+         "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Part-I"
+      },
+      {
+         "chapters":[
+            {
+               "title":"Chapter: Introduction",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-2"
+            },
+            {
+               "title":"Chapter: Basic CoffeeScript",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-3"
+            },
+            {
+               "title":"Chapter: Functions",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-4"
+            },
+            {
+               "title":"Chapter: Data Structures",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-5"
+            },
+            {
+               "title":"Chapter: Error Handling",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-6"
+            }
+         ],
+         "title":"Part II: Language",
+         "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Part-II"
+      },
+      {
+         "chapters":[
+            {
+               "title":"Chapter: Functional Programming",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-7"
+            },
+            {
+               "title":"Chapter: Searching",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-8"
+            },
+            {
+               "title":"Chapter: Object Orientation",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-9"
+            },
+            {
+               "title":"Chapter: Regular Expressions",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-10"
+            },
+            {
+               "title":"Chapter: Modularity",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Chapter-11"
+            }
+         ],
+         "title":"Part III: Paradigm",
+         "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Part-III"
+      },
+      {
+         "chapters":[
+            {
+               "title":"Appendix: Language Extras",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Appendix-A"
+            },
+            {
+               "title":"Appendix: Binary Heaps",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Appendix-B"
+            },
+            {
+               "title":"Appendix: Performance",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Appendix-C"
+            },
+            {
+               "title":"Appendix: Command Line Utility",
+               "sections":[],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Appendix-D"
+            }
+         ],
+         "title":"Part IV: Appendix",
+         "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Part-IV"
+      },
+      {
+         "chapters":[
+            {
+               "title":"Appendix: Reference",
+               "sections":[
+                  {
+                     "subsections":[
+                        {
+                           "title":"Subsection: General",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--1"
+                        },
+                        {
+                           "title":"Subsection: Embedded JavaScript",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--2"
+                        },
+                        {
+                           "title":"Subsection: Functions",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--3"
+                        },
+                        {
+                           "title":"Subsection: Objects and arrays",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--4"
+                        },
+                        {
+                           "title":"Subsection: Lexical Scoping and Variable Safety",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--5"
+                        },
+                        {
+                           "title":"Subsection: If, Else, Unless, and Conditional Assignment",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--6"
+                        },
+                        {
+                           "title":"Subsection: Splats",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--7"
+                        },
+                        {
+                           "title":"Subsection: Loops and Comprehensions",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--8"
+                        },
+                        {
+                           "title":"Subsection: Array Slicing and Splicing with Ranges",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--9"
+                        },
+                        {
+                           "title":"Subsection: Everything is an Expression",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--10"
+                        },
+                        {
+                           "title":"Subsection: Operators and Aliases",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--11"
+                        },
+                        {
+                           "title":"Subsection: Existential Operator",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--12"
+                        },
+                        {
+                           "title":"Subsection: Classes, Inheritance, and Super",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--13"
+                        },
+                        {
+                           "title":"Subsection: Destructuring Assignment",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--14"
+                        },
+                        {
+                           "title":"Subsection: Function binding",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--15"
+                        },
+                        {
+                           "title":"Subsection: Switch/When/Else",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--16"
+                        },
+                        {
+                           "title":"Subsection: Try/Catch/Finally",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--17"
+                        },
+                        {
+                           "title":"Subsection: String Interpolation, Heredocs, and Block Comments",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--18"
+                        },
+                        {
+                           "title":"Subsection: Chained Comparisons",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--19"
+                        },
+                        {
+                           "title":"Subsection: Extended Regular Expressions",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--20"
+                        },
+                        {
+                           "title":"Subsection: Reserved Words",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--21"
+                        },
+                        {
+                           "title":"Subsection: Underscore",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--22"
+                        },
+                        {
+                           "title":"Subsection: qc.js",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--23"
+                        },
+                        {
+                           "title":"Subsection: Additional Words",
+                           "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Subsection--24"
+                        }
+                     ],
+                     "title":"Section: Language Reference",
+                     "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Section--1"
+                  }
+               ],
+               "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Appendix-E"
+            }
+         ],
+         "title":"Part V: Reference and Index",
+         "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#toc-Part-V"
+      },
+      {
+         "chapters":[],
+         "title":"Index",
+         "uri":"http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html#Index"
+      }
+   ],
+   "cover_image":"http://autotelicum.github.com/Smooth-CoffeeScript/img/SmoothCoverWithSolutions.jpg",
+   "author":" E. Hoigaard ",
+   "title":"Smooth CoffeeScript"
+}
