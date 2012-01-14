@@ -53,6 +53,7 @@ These are the examples.
 
  * http://mizzy.org/webiblo/data/Getting_Real.json
  * http://mizzy.org/webiblo/data/SICP.json
+ * http://mizzy.org/webiblo/data/SmoothCoffeeScript.json
 
 ---------------------------------------
 
