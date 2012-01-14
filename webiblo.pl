@@ -116,10 +116,21 @@ sub get_content {
         }
     }
 
-    my $head = ($tree->findnodes('/html/head'))[0];
-    $head->push_content($style);
+    my @links = $tree->findnodes('//link[@rel="stylesheet"]');
+    for my $link ( @links ) {
+        warn "Getting $uri ...\n";
+        my $href = $link->attr('href');
+        my $base = $uri->as_string;
+        $base =~ s{/[^/]+$}{};
+        $href = "$base/$href" if $href !~ m!^https?://!;
+        my $file = (URI->new($href)->path_segments)[-1];
+        mirror($href, "out/$file") unless -f "out/$file";
+    }
 
-    ## TODO: Get CSS file
+    if ( ! scalar @links ) {
+        my $head = ($tree->findnodes('/html/head'))[0];
+        $head->push_content($style)
+    };
 
     my @images = $tree->findnodes('//img');
     for my $image ( @images ) {
