@@ -51,6 +51,6 @@
   <tours></tours>
   <guide>
     <reference type="toc" title="Table of Contents" href="index.html"></reference>
-    <reference type="start" title="Startup Page" href="[% chapters.0.sections.0.href %]"></reference>
+    <reference type="start" title="Startup Page" href="[% startup_page %]"></reference>
   </guide>
 </package>

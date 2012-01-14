@@ -67,6 +67,8 @@ close $out;
 my $book_title = $book->{title};
 $book_title =~ s/\s/_/g;
 
+set_startup_page($book);
+
 warn "Writing ${book_title}.opf ...\n";
 open $out, '>', "out/${book_title}.opf" or die $!;
 print $out $tx->render('opf.tx', $book);
@@ -87,7 +89,13 @@ sub get_content {
     my $file     = ($uri->path_segments)[-1];
     my $fragment = $uri->fragment;
 
-    mirror($uri, "tmp/$file") unless -f "tmp/$file";
+    $file =~ s/\..+/.html/ unless $file =~ /\.html$/;
+    $object->{file} = $file;
+    $object->{href} = $fragment ? "$file#$fragment" : $file;
+
+    return if -f "tmp/$file";
+
+    mirror($uri, "tmp/$file");
 
     my $tree = HTML::TreeBuilder::XPath->new;
     $tree->no_expand_entities(1);
@@ -112,25 +120,50 @@ sub get_content {
     my $head = ($tree->findnodes('/html/head'))[0];
     $head->push_content($style);
 
+    ## TODO: Get CSS file
+
     my @images = $tree->findnodes('//img');
     for my $image ( @images ) {
+        warn "Getting $uri ...\n";
+        my $src = $image->attr('src');
         my $base = $uri->as_string;
         $base =~ s{/[^/]+$}{};
-
-        warn "Getting $uri ...\n";
-        my $uri  = URI->new("$base/" . $image->attr('src'));
-        my $file = ($uri->path_segments)[-1];
-        mirror($uri, "out/$file") unless -f "out/$file";
+        $src = "$base/$src" if $src !~ m!^https?://!;
+        my $file = (URI->new($src)->path_segments)[-1];
+        mirror($src, "out/$file") unless -f "out/$file";
         $image->attr('src', $file);
     }
-
-    $file =~ s/\..+/.html/ unless $file =~ /\.html$/;
 
     open my $out, '>', "out/$file" or die $!;
     print $out $tree->as_XML;
     close $out;
+}
 
-    $object->{file} = $file;
-    $file .= "#$fragment" if $fragment;
-    $object->{href} = $file;
+sub set_startup_page {
+    my $book = shift;
+
+    for my $part ( @{ $book->{parts} } ) {
+        if ( $part->{href} ) {
+            $book->{startup_page} = $part->{href};
+            return;
+        }
+        for my $chapter ( @{ $part->{chapters} } ) {
+            if ( $chapter->{href} ) {
+                $book->{startup_page} = $chapter->{href};
+                return;
+                for my $section ( @{ $chapter->{sections} } ) {
+                    if ( $section->{href} ) {
+                        $book->{startup_page} = $section->{href};
+                        return;
+                    }
+                    for my $subsection ( @{ $section->{subsections} } ) {
+                        if ( $subsection->{href} ) {
+                            $book->{startup_page} = $subsection->{href};
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
