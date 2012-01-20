@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, dl, pre, blockquote, table
 STYLE
 
 my $uri  = shift;
-my $book = $uri ? JSON::Syck::Load(get($uri)) : JSON::Syck::Load(do { local $/; <STDIN>});
+my $book = $uri ? JSON::Syck::Load(get($uri)) : JSON::Syck::Load(do { local $/; <STDIN> });
 
 mkdir 'tmp' unless -d 'tmp';
 mkdir 'out' unless -d 'out';
