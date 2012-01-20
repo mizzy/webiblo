@@ -105,6 +105,7 @@ sub get_content {
         my $content = ($tree->findnodes($book->{content_xpath}))[0]->as_XML;
         my $meta = join '', map { $_->as_XML } $tree->findnodes('//head/meta');
         $tree = HTML::TreeBuilder::XPath->new;
+        $tree->no_expand_entities(1);
         $tree->parse(<<"HTML");
           <html>
             <head>
