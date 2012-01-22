@@ -6,7 +6,6 @@ use JSON::Syck;
 use LWP::Simple;
 use URI;
 use HTML::TreeBuilder::XPath;
-use HTML::Scrubber;
 use Text::Xslate;
 use Image::Resize;
 
@@ -155,23 +154,8 @@ HTML
         $image->attr('src', $file);
     }
 
-    my @default = (
-        1,
-        {
-            '*'       => 1,
-            'onclick' => 0,
-        },
-    );
-
-    my $scrubber = HTML::Scrubber->new(
-        default => \@default,
-    );
-
-    my $content = $scrubber->scrub($tree->as_XML_indented);
-    $tree->delete;
-
     open my $out, '>', "out/$file" or die $!;
-    print $out $content;
+    print $out $tree->as_XML;
     close $out;
 }
 
