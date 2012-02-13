@@ -1,0 +1,53 @@
+{
+    "title"       : "Scala開眼",
+    "authors"     : [
+        "samwyn"
+    ],
+    "exclude_xpath" : "//h3|//h5|//hr",
+    "chapters" : [
+        {
+            "title" : "Scalaとは何か",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/scalaindex.htm"
+        },
+        {
+            "title" : "1階受付：インストール等",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/install.htm"
+        },
+        {
+            "title" : "1階案内版：コマンド",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/commands.htm"
+        },
+        {
+            "title" : "2階：書き方",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/writing.htm"
+        },
+        {
+            "title" : "3階：文と式",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/express.htm"
+        },
+        {
+            "title" : "4階：関数",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/function.htm"
+        },
+        {
+            "title" : "5階：オブジェクト指向",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/object.htm"
+        },
+        {
+            "title" : "6階：型",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/type.htm"
+        },
+        {
+            "title" : "7階：注釈等",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/annons.htm"
+        },
+        {
+            "title" : "Scala言語仕様要約（Ver2.7.1）",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/scalag.htm"
+        },
+        {
+            "title" : "雲：scalaパッケージ概観（2.7.1)",
+            "uri"   : "http://www.h7.dion.ne.jp/~samwyn/Scala/scalapac.htm"
+        }
+    ]
+}
