@@ -88,6 +88,7 @@ sub get_content {
     my $fragment = $uri->fragment;
 
     $file =~ s/\..+/.html/ unless $file =~ /\.html$/;
+    $file .= '.html' unless $file =~ /\.html$/; # add .html if no extension
     $object->{file} = $file;
     $object->{href} = $fragment ? "$file#$fragment" : $file;
 
