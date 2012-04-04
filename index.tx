@@ -17,10 +17,10 @@
       <li><a href="[% chapter.href %]">[% chapter.title %]</a></li>
       <ul>
       [% FOREACH section IN chapter.sections -%]
-        <li><a href="[% section.href %]">[% section.title %]</li>
+        <li><a href="[% section.href %]">[% section.title %]</a></li>
         <ul>
         [% FOREACH subsection IN section.subsections -%]
-          <li><a href="[% subsection.href %]">[% subsection.title %]</li>
+          <li><a href="[% subsection.href %]">[% subsection.title %]</a></li>
         [% END %]
         </ul>
       [% END -%]
