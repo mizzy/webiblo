@@ -1,0 +1,163 @@
+{
+   "content_xpath":"//div[@id=\"content_view\"]",
+   "authors":[
+      "Rich Hickey"
+   ],
+   "chapters":[
+      {
+         "title":"Rationale",
+         "uri":"http://clojure.org/rationale"
+      },
+      {
+         "title":"On State and Identity",
+         "uri":"http://clojure.org/state"
+      },
+      {
+         "title":"Features",
+         "uri":"http://clojure.org/features"
+      },
+      {
+         "title":"Dynamic Development",
+         "uri":"http://clojure.org/dynamic"
+      },
+      {
+         "title":"Functional Programming",
+         "uri":"http://clojure.org/functional_programming"
+      },
+      {
+         "title":"Lisp",
+         "uri":"http://clojure.org/lisp"
+      },
+      {
+         "title":"Runtime Polymorphism",
+         "uri":"http://clojure.org/runtime_polymorphism"
+      },
+      {
+         "title":"Concurrent Programming",
+         "uri":"http://clojure.org/concurrent_programming"
+      },
+      {
+         "title":"Hosted on the JVM",
+         "uri":"http://clojure.org/jvm_hosted"
+      },
+      {
+         "title":"Reference",
+         "uri":"http://clojure.org/Reference"
+      },
+      {
+         "title":"Getting Started",
+         "uri":"http://clojure.org/getting_started"
+      },
+      {
+         "title":"The Reader",
+         "uri":"http://clojure.org/reader"
+      },
+      {
+         "title":"The REPL and main",
+         "uri":"http://clojure.org/repl_and_main"
+      },
+      {
+         "title":"Evaluation",
+         "uri":"http://clojure.org/evaluation"
+      },
+      {
+         "title":"Special Forms",
+         "uri":"http://clojure.org/special_forms"
+      },
+      {
+         "title":"Macros",
+         "uri":"http://clojure.org/macros"
+      },
+      {
+         "title":"Other Functions",
+         "uri":"http://clojure.org/other_functions"
+      },
+      {
+         "title":"Data Structures",
+         "uri":"http://clojure.org/data_structures"
+      },
+      {
+         "title":"Datatypes",
+         "uri":"http://clojure.org/datatypes"
+      },
+      {
+         "title":"Sequences",
+         "uri":"http://clojure.org/sequences"
+      },
+      {
+         "title":"Transients",
+         "uri":"http://clojure.org/Transients"
+      },
+      {
+         "title":"Multimethods and Hierarchies ",
+         "uri":"http://clojure.org/multimethods"
+      },
+      {
+         "title":"Protocols",
+         "uri":"http://clojure.org/Protocols"
+      },
+      {
+         "title":"Metadata",
+         "uri":"http://clojure.org/metadata"
+      },
+      {
+         "title":"Namespaces",
+         "uri":"http://clojure.org/namespaces"
+      },
+      {
+         "title":"Libs",
+         "uri":"http://clojure.org/libs"
+      },
+      {
+         "title":"Vars and Environment",
+         "uri":"http://clojure.org/vars"
+      },
+      {
+         "title":"Refs and Transactions",
+         "uri":"http://clojure.org/refs"
+      },
+      {
+         "title":"Agents",
+         "uri":"http://clojure.org/agents"
+      },
+      {
+         "title":"Atoms",
+         "uri":"http://clojure.org/atoms"
+      },
+      {
+         "title":"Java Interop",
+         "uri":"http://clojure.org/java_interop"
+      },
+      {
+         "title":"Compilation and Class Generation",
+         "uri":"http://clojure.org/compilation"
+      },
+      {
+         "title":"Other Libraries",
+         "uri":"http://clojure.org/other_libraries"
+      },
+      {
+         "title":"Differences with Lisps",
+         "uri":"http://clojure.org/lisps"
+      },
+      {
+         "title":"Cheat Sheet",
+         "uri":"http://clojure.org/cheatsheet"
+      },
+      {
+         "title":"Jobs",
+         "uri":"http://clojure.org/Jobs"
+      },
+      {
+         "title":"License",
+         "uri":"http://clojure.org/license"
+      },
+      {
+         "title":"Contributing",
+         "uri":"http://clojure.org/contributing"
+      }
+   ],
+   "cover_image":"http://clojure.org/space/showimage/clojure-icon.gif",
+   "title":"Clojure",
+   "exclude_xpath":"//div[@id=\"toc\"]"
+}
