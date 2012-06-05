@@ -4,7 +4,7 @@ root = 'http://www2u.biglobe.ne.jp/~oz-07ams/prog/ecma262r3/fulltoc.html'
 book = {
   :title => 'ECMA-262 3rd edition',
   :authors => [
-    'Rich Hickey'
+    'TAKI'
   ],
   :cover_image => 'http://www.ecma-international.org/images/logo_printerf.jpg',
   :content_xpath => '//div[@class="section level1"]',
