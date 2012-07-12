@@ -1,0 +1,62 @@
+{
+  "title": "RubyGems Guides",
+  "authors": [
+    "rubygems"
+  ],
+  "cover_image": "http://guides.rubygems.org/images/logo.png",
+  "content_xpath": "//section[@id=\"chapters\"]",
+  "chapters": [
+    {
+      "uri": "http://guides.rubygems.org/what-is-a-gem",
+      "title": "What is a gem?"
+    },
+    {
+      "uri": "http://guides.rubygems.org/make-your-own-gem",
+      "title": "Make your own gem"
+    },
+    {
+      "uri": "http://guides.rubygems.org/patterns",
+      "title": "Patterns"
+    },
+    {
+      "uri": "http://guides.rubygems.org/specification-reference",
+      "title": "Specification Reference"
+    },
+    {
+      "uri": "http://guides.rubygems.org/command-reference",
+      "title": "Command Reference"
+    },
+    {
+      "uri": "http://guides.rubygems.org/rubygems-org-api",
+      "title": "RubyGems.org API"
+    },
+    {
+      "uri": "http://guides.rubygems.org/run-your-own-gem-server",
+      "title": "Run your own gem server"
+    },
+    {
+      "uri": "http://guides.rubygems.org/c-extensions",
+      "title": "C Extensions"
+    },
+    {
+      "uri": "http://guides.rubygems.org/resources",
+      "title": "Resources"
+    },
+    {
+      "uri": "http://guides.rubygems.org/contributing",
+      "title": "Contributing to RubyGems"
+    },
+    {
+      "uri": "http://guides.rubygems.org/faqs",
+      "title": "Frequently Asked Questions"
+    },
+    {
+      "uri": "http://guides.rubygems.org/plugins",
+      "title": "Plugins"
+    },
+    {
+      "uri": "http://guides.rubygems.org/credits",
+      "title": "Credits"
+    }
+  ]
+}

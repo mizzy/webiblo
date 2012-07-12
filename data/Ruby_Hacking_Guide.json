@@ -1,0 +1,98 @@
+{
+  "title": "Rubyソースコード完全解説",
+  "authors": [
+    "Minero Aoki"
+  ],
+  "cover_image": "http://direct.ips.co.jp/directsys/Images/Goods/1/1721B.gif",
+  "content_xpath": "//body",
+  "chapters": [
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/preface.html",
+      "title": "まえがき"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/intro.html",
+      "title": "序章"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/minimum.html",
+      "title": "第 1 章「Ruby言語ミニマム」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/object.html",
+      "title": "第 2 章「オブジェクト」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/name.html",
+      "title": "第 3 章「名前と名前表」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/class.html",
+      "title": "第 4 章「クラス」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/gc.html",
+      "title": "第 5 章「ガーベージコレクション」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/variable.html",
+      "title": "第 6 章「変数と定数」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/security.html",
+      "title": "第 7 章「セキュリティ」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/spec.html",
+      "title": "第 8 章「Ruby言語の詳細」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/yacc.html",
+      "title": "第 9 章「速習yacc」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/parser.html",
+      "title": "第 10 章「パーサ」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/contextual.html",
+      "title": "第 11 章「状態付きスキャナ」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/syntree.html",
+      "title": "第 12 章「構文木の構築」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/evaluator.html",
+      "title": "第 13 章「評価器の構造」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/module.html",
+      "title": "第 14 章「コンテキスト」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/method.html",
+      "title": "第 15 章「メソッド」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/iterator.html",
+      "title": "第 16 章「ブロック」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/anyeval.html",
+      "title": "第 17 章「動的評価」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/load.html",
+      "title": "第 18 章「ロード」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/thread.html",
+      "title": "第 19 章「スレッド」"
+    },
+    {
+      "uri": "http://i.loveruby.net/ja/rhg/book/fin.html",
+      "title": "終章"
+    }
+  ]
+}
